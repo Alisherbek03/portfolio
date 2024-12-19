@@ -1,0 +1,158 @@
+.top {
+  // background-color: dodgerblue;
+  background-color: rgb(32, 32, 32);
+  // opacity: 0.5;
+  position: fixed;
+  z-index: 110;
+  width: 100%;
+  margin: 0 auto;
+
+  .container {
+    
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+
+      h1 {
+        color: white;
+        font-size: 28px;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 300px;
+        width: 100%;
+
+        li a {
+          color: white;
+          font-size: 18px;
+          position: relative;
+        }
+
+        li a::before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background: #fff;
+          transition: 0.3s ease;
+        }
+
+        li a:hover:before {
+          width: 100%;
+          color: rgb(239, 231, 231);
+        }
+      }
+
+      .icon {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1240px) {
+
+    nav {
+      justify-content: space-around;
+    }
+
+
+  }
+
+
+  @media screen and (max-width: 1024px) {
+    max-width: 1024px;
+    width: 100%;
+
+    .navbar-container {
+      max-width: 1024px;
+      width: 100%;
+      margin: 0 auto;
+
+      nav {
+        justify-content: space-around;
+      }
+    }
+  }
+
+  @media screen and (max-width: 962px) {
+    max-width: 962px;
+    width: 100%;
+
+    .navbar-container {
+      margin: 0 auto;
+      max-width: 962px;
+      width: 100%;
+
+      nav {
+        justify-content: space-around;
+
+      }
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 768px;
+    width: 100%;
+
+    .navbar-container {
+      margin: 0 auto;
+      max-width: 768px;
+      width: 100%;
+
+      nav {
+        max-width: 768px;
+        justify-content: space-around;
+        // padding: 10px 50px;
+
+        .nav-link {
+          flex-direction: column;
+          justify-content: space-evenly;
+          background-color: dodgerblue;
+          position: absolute;
+          right: -800px;
+          top: 50px;
+          z-index: 100;
+          width: 300px;
+          height: 50vh;
+          transition: all 0.7s;
+
+          &.active {
+            transition: all 0.3s ease-in;
+            right: 0;
+          }
+
+        }
+
+        .icon {
+          color: #fff;
+          font-size: 24px;
+          cursor: pointer;
+          display: block;
+
+          &:hover {
+            color: whitesmoke;
+          }
+        }
+
+        .menu-btn {
+          font-weight: 800;
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+
+      }
+
+    }
+
+  }
+}

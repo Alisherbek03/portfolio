@@ -1,0 +1,173 @@
+.resume-container {
+    display: flex;
+    justify-content: center;
+    max-width: 962px;
+    width: 100%;
+
+    .resume {
+        width: 940px;
+        border-radius: 5px;
+        background-color: gray;
+        margin: 100px auto 0;
+        height: 500px;
+        color: white;
+        padding: 40px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .resume-text {
+            margin: 0 auto;
+
+            h1 {
+                text-align: center;
+                padding-bottom: 40px;
+            }
+
+            p {
+                max-width: 450px;
+                width: 100%;
+                font-size: 24px;
+            }
+        }
+    }
+
+    @media screen and (max-width:962px) {
+        max-width: 768px;
+        width: 100%;
+
+        .resume {
+            width: 740px;
+            border-radius: 5px;
+            background-color: gray;
+            margin: 100px auto 0;
+            height: 500px;
+            color: white;
+            padding: 40px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .resume-text {
+                margin: 0 auto;
+
+                h1 {
+                    text-align: center;
+                    padding-bottom: 40px;
+                }
+
+                p {
+                    max-width: 450px;
+                    width: 100%;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        max-width: 540px;
+        width: 100%;
+
+        .resume {
+            width: 500px;
+            border-radius: 5px;
+            background-color: gray;
+            margin: 100px auto 0;
+            height: 500px;
+            color: white;
+            padding: 40px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .resume-text {
+                margin: 0 auto;
+
+                h1 {
+                    text-align: center;
+                    padding-bottom: 40px;
+                }
+
+                p {
+                    max-width: 450px;
+                    width: 100%;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:540px) {
+        max-width: 400px;
+        width: 100%;
+
+        .resume {
+            max-width: 400px;width: 100%;
+            border-radius: 5px;
+            background-color: gray;
+            margin: 100px auto 0;
+            height: 500px;
+            color: white;
+            padding: 20px 30px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .resume-text {
+                margin: 0 auto;
+
+                h1 {
+                    text-align: center;
+                    padding-bottom: 40px;
+                    font-size: 28px;
+                }
+
+                p {
+                    max-width: 450px;
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:320px) {
+        max-width: 310px;
+        width: 100%;
+
+        .resume {
+            width: 300px;
+            border-radius: 5px;
+            background-color: gray;
+            margin: 100px auto 0;
+            height: 500px;
+            color: white;
+            padding: 20px 30px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .resume-text {
+                margin: 0 auto;
+
+                h1 {
+                    text-align: center;
+                    padding-bottom: 40px;
+                    font-size: 28px;
+                }
+
+                p {
+                    max-width: 450px;
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}

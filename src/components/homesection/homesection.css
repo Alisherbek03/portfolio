@@ -1,0 +1,397 @@
+.homesection-style .homesection {
+  max-width: 1024px;
+  width: 100%;
+  margin: 150px auto;
+  height: 400px;
+  position: absolute;
+  z-index: 100;
+  background-color: rgb(32, 32, 32);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.homesection-style .homesection .homesection-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.homesection-style .homesection .homesection-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homesection-style .homesection .homesection-text h1 {
+  font-size: 34px;
+  color: white;
+}
+.homesection-style .homesection .homesection-text .download-cv {
+  width: 140px;
+  padding: 10px;
+  color: dodgerblue;
+  margin: 10px 0 !important;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  transition: 0.3s;
+}
+.homesection-style .homesection .homesection-text .download-cv:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+.homesection-style .homesection .homesection-text .download-cv .arrow-icon {
+  font-size: x-large;
+}
+.homesection-style .homesection .homesection-text div {
+  font-size: 34px;
+  color: white;
+  width: 250px;
+  display: flex;
+}
+.homesection-style .homesection .homesection-text div p {
+  width: 80px;
+}
+.homesection-style .homesection .homesection-text div span {
+  font-size: 34px;
+  color: white;
+}
+.homesection-style .homesection .homesection-text .icons {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homesection-style .homesection .homesection-text .icons .icon-link {
+  color: whitesmoke;
+  transition: all 0.3s ease;
+  font-size: 28px;
+}
+.homesection-style .homesection .homesection-text .icons .icon-link:hover {
+  color: rgb(198, 192, 192);
+}
+@media (max-width: 1024px) {
+  .homesection-style {
+    max-width: 962px;
+    width: 100%;
+  }
+  .homesection-style .homesection {
+    max-width: 962px;
+    width: 100%;
+  }
+}
+@media (max-width: 962px) {
+  .homesection-style {
+    max-width: 768px;
+    width: 100%;
+  }
+  .homesection-style .homesection {
+    max-width: 768px;
+    width: 100%;
+  }
+  .homesection-style .homesection .homesection-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .homesection-style .homesection .homesection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text h1 {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv {
+    width: 120px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: dodgerblue;
+    margin: 10px 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .homesection-style .homesection .homesection-text .download-cv:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv .arrow-icon {
+    font-size: x-large;
+  }
+  .homesection-style .homesection .homesection-text div {
+    font-size: 28px;
+    color: white;
+    width: 250px;
+    display: flex;
+  }
+  .homesection-style .homesection .homesection-text div p {
+    width: 80px;
+  }
+  .homesection-style .homesection .homesection-text div span {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link {
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    font-size: 24px;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link:hover {
+    color: rgb(198, 192, 192);
+  }
+}
+@media (max-width: 768px) {
+  .homesection-style {
+    max-width: 540px;
+    width: 100%;
+  }
+  .homesection-style .homesection {
+    max-width: 540px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+  }
+  .homesection-style .homesection .homesection-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .homesection-style .homesection .homesection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text h1 {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv {
+    width: 120px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: dodgerblue;
+    margin: 10px 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .homesection-style .homesection .homesection-text .download-cv:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv .arrow-icon {
+    font-size: x-large;
+  }
+  .homesection-style .homesection .homesection-text div {
+    font-size: 28px;
+    color: white;
+    width: 250px;
+    display: flex;
+  }
+  .homesection-style .homesection .homesection-text div p {
+    width: 80px;
+  }
+  .homesection-style .homesection .homesection-text div span {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link {
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    font-size: 24px;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link:hover {
+    color: rgb(198, 192, 192);
+  }
+}
+@media (max-width: 540px) {
+  .homesection-style {
+    max-width: 340px;
+    width: 100%;
+  }
+  .homesection-style .homesection {
+    max-width: 340px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+  }
+  .homesection-style .homesection .homesection-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .homesection-style .homesection .homesection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text h1 {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv {
+    width: 120px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: dodgerblue;
+    margin: 10px 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .homesection-style .homesection .homesection-text .download-cv:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv .arrow-icon {
+    font-size: x-large;
+  }
+  .homesection-style .homesection .homesection-text div {
+    font-size: 28px;
+    color: white;
+    width: 250px;
+    display: flex;
+  }
+  .homesection-style .homesection .homesection-text div p {
+    width: 80px;
+  }
+  .homesection-style .homesection .homesection-text div span {
+    font-size: 28px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link {
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    font-size: 24px;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link:hover {
+    color: rgb(198, 192, 192);
+  }
+}
+@media (max-width: 320px) {
+  .homesection-style {
+    max-width: 300px;
+    width: 100%;
+  }
+  .homesection-style .homesection {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin: 100px auto;
+  }
+  .homesection-style .homesection .homesection-img img {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .homesection-style .homesection .homesection-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text h1 {
+    font-size: 20px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv {
+    width: 120px;
+    padding: 5px 5px;
+    font-size: 14px;
+    color: dodgerblue;
+    margin: 10px 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .homesection-style .homesection .homesection-text .download-cv:hover {
+    background-color: dodgerblue;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .download-cv .arrow-icon {
+    font-size: x-large;
+  }
+  .homesection-style .homesection .homesection-text .homesection-animation {
+    font-size: 20px;
+    color: white;
+    width: 250px;
+    padding-left: 40px;
+  }
+  .homesection-style .homesection .homesection-text .homesection-animation p {
+    width: 80px;
+  }
+  .homesection-style .homesection .homesection-text .homesection-animation span {
+    font-size: 20px;
+    color: white;
+  }
+  .homesection-style .homesection .homesection-text .icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link {
+    color: whitesmoke;
+    transition: all 0.3s ease;
+    font-size: 24px;
+  }
+  .homesection-style .homesection .homesection-text .icons .icon-link:hover {
+    color: rgb(198, 192, 192);
+  }
+}/*# sourceMappingURL=homesection.css.map */

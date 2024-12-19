@@ -1,0 +1,55 @@
+.work-cards {
+    max-width: 1000px;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        color: dodgerblue;
+        text-align: center;
+    }
+
+}
+
+
+.work-footer {
+
+    .work-footer-text {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        width: 100%;
+        background-color: dodgerblue;
+        position: absolute;
+        bottom: -800px;
+
+        p {
+            margin: 0 5px;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .work-footer-text{
+            bottom: -1200px;
+        }
+    }
+    @media screen and (max-width:540px) {
+        .work-footer-text{
+            bottom: -1740px;
+        }
+    }
+    @media screen and (max-width:320px) {
+        .work-footer-text{
+            bottom: -3400px;
+        }
+    }
+}

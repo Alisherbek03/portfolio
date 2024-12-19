@@ -1,0 +1,28 @@
+footer {
+    background-color: rgb(32, 32, 32);
+    // opacity: 0.5;
+    // background-color: dodgerblue;
+    position: absolute;
+    bottom: 0;
+    z-index: 145555;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-text {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+
+    p {
+        color: white;
+        font-size: 18px;
+    }
+
+}

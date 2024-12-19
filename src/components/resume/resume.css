@@ -1,0 +1,158 @@
+.resume-container {
+  display: flex;
+  justify-content: center;
+  max-width: 962px;
+  width: 100%;
+}
+.resume-container .resume {
+  width: 940px;
+  border-radius: 5px;
+  background-color: gray;
+  margin: 100px auto 0;
+  height: 500px;
+  color: white;
+  padding: 40px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-container .resume .resume-text {
+  margin: 0 auto;
+}
+.resume-container .resume .resume-text h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.resume-container .resume .resume-text p {
+  max-width: 450px;
+  width: 100%;
+  font-size: 24px;
+}
+@media screen and (max-width: 962px) {
+  .resume-container {
+    max-width: 768px;
+    width: 100%;
+  }
+  .resume-container .resume {
+    width: 740px;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 100px auto 0;
+    height: 500px;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-container .resume .resume-text {
+    margin: 0 auto;
+  }
+  .resume-container .resume .resume-text h1 {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .resume-container .resume .resume-text p {
+    max-width: 450px;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .resume-container {
+    max-width: 540px;
+    width: 100%;
+  }
+  .resume-container .resume {
+    width: 500px;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 100px auto 0;
+    height: 500px;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-container .resume .resume-text {
+    margin: 0 auto;
+  }
+  .resume-container .resume .resume-text h1 {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .resume-container .resume .resume-text p {
+    max-width: 450px;
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .resume-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  .resume-container .resume {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 100px auto 0;
+    height: 500px;
+    color: white;
+    padding: 20px 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-container .resume .resume-text {
+    margin: 0 auto;
+  }
+  .resume-container .resume .resume-text h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 28px;
+  }
+  .resume-container .resume .resume-text p {
+    max-width: 450px;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .resume-container {
+    max-width: 310px;
+    width: 100%;
+  }
+  .resume-container .resume {
+    width: 300px;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 100px auto 0;
+    height: 500px;
+    color: white;
+    padding: 20px 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resume-container .resume .resume-text {
+    margin: 0 auto;
+  }
+  .resume-container .resume .resume-text h1 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 28px;
+  }
+  .resume-container .resume .resume-text p {
+    max-width: 450px;
+    width: 100%;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=resume.css.map */

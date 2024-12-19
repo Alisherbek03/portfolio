@@ -1,0 +1,125 @@
+.top {
+  background-color: rgb(32, 32, 32);
+  position: fixed;
+  z-index: 110;
+  width: 100%;
+  margin: 0 auto;
+}
+.top .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.top .container nav h1 {
+  color: white;
+  font-size: 28px;
+}
+.top .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+}
+.top .container nav ul li a {
+  color: white;
+  font-size: 18px;
+  position: relative;
+}
+.top .container nav ul li a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+.top .container nav ul li a:hover:before {
+  width: 100%;
+  color: rgb(239, 231, 231);
+}
+.top .container nav .icon {
+  display: none;
+}
+@media screen and (max-width: 1240px) {
+  .top nav {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .top {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .top .navbar-container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .top .navbar-container nav {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 962px) {
+  .top {
+    max-width: 962px;
+    width: 100%;
+  }
+  .top .navbar-container {
+    margin: 0 auto;
+    max-width: 962px;
+    width: 100%;
+  }
+  .top .navbar-container nav {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top {
+    max-width: 768px;
+    width: 100%;
+  }
+  .top .navbar-container {
+    margin: 0 auto;
+    max-width: 768px;
+    width: 100%;
+  }
+  .top .navbar-container nav {
+    max-width: 768px;
+    justify-content: space-around;
+  }
+  .top .navbar-container nav .nav-link {
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    position: absolute;
+    right: -800px;
+    top: 50px;
+    z-index: 100;
+    width: 300px;
+    height: 50vh;
+    transition: all 0.7s;
+  }
+  .top .navbar-container nav .nav-link.active {
+    transition: all 0.3s ease-in;
+    right: 0;
+  }
+  .top .navbar-container nav .icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+  }
+  .top .navbar-container nav .icon:hover {
+    color: whitesmoke;
+  }
+  .top .navbar-container nav .menu-btn {
+    font-weight: 800;
+  }
+  .top .navbar-container nav h1 {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=navbar.css.map */
