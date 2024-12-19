@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 .work-cards h1 {
-  color: dodgerblue;
+  color: rgb(32, 32, 32);
   text-align: center;
 }
 
@@ -22,7 +22,7 @@
   justify-content: center;
   color: #fff;
   width: 100%;
-  background-color: dodgerblue;
+  background-color: rgb(32, 32, 32);
   position: absolute;
   bottom: -800px;
 }

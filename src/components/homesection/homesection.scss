@@ -7,7 +7,6 @@
         position: absolute;
         z-index: 100;
         background-color: rgb(32, 32, 32);
-        // background-color: rgb(82, 80, 80);
         border-radius: 15px;
         display: flex;
         justify-content: space-around;
@@ -42,7 +41,7 @@
             .download-cv {
                 width: 140px;
                 padding: 10px;
-                color: dodgerblue;
+                color: black;
                 margin: 10px 0 !important;
                 border-radius: 2px;
                 display: flex;
@@ -52,7 +51,7 @@
                 transition: .3s;
 
                 &:hover {
-                    background-color: dodgerblue;
+                    background-color: black;
                     color: white;
 
                 }

@@ -33,7 +33,7 @@
 .homesection-style .homesection .homesection-text .download-cv {
   width: 140px;
   padding: 10px;
-  color: dodgerblue;
+  color: black;
   margin: 10px 0 !important;
   border-radius: 2px;
   display: flex;
@@ -43,7 +43,7 @@
   transition: 0.3s;
 }
 .homesection-style .homesection .homesection-text .download-cv:hover {
-  background-color: dodgerblue;
+  background-color: black;
   color: white;
 }
 .homesection-style .homesection .homesection-text .download-cv .arrow-icon {
