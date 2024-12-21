@@ -45,7 +45,7 @@ const HomeSection = () => {
             <h1>Alisher Abdurahimov</h1>
             <a
               className="download-cv"
-              href="/CV.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
